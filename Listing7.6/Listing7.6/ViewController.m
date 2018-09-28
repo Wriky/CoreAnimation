@@ -38,6 +38,7 @@
     
 }
 
+#pragma mark- setter
 - (UIView *)layerView {
     if (!_layerView) {
         _layerView = [UIView new];
