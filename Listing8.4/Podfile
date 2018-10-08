@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Listing8.4' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Listing8.4
+
+  pod 'Masonry'
+
+  target 'Listing8.4Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Listing8.4UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
